@@ -1,0 +1,294 @@
+
+.home-hero {
+  min-height: 620px;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(10, 22, 40, 0.96) 0%,
+      rgba(10, 22, 40, 0.82) 55%,
+      rgba(10, 22, 40, 0.35) 100%
+    ),
+    url("/images/hero.jpg") center / cover no-repeat;
+  color: #fff;
+}
+
+.home-hero-overlay {
+  min-height: 620px;
+  display: flex;
+  align-items: center;
+}
+
+.home-hero-content {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 80px 24px;
+  box-sizing: border-box;
+}
+
+.home-eyebrow,
+.section-eyebrow {
+  color: #b18a42;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.home-hero h1 {
+  max-width: 800px;
+  margin: 24px 0;
+  font-size: clamp(2.7rem, 5.5vw, 4.7rem);
+  line-height: 1.12;
+  font-weight: 700;
+}
+
+.home-hero-content > p {
+  max-width: 650px;
+  color: #dce3ed;
+  font-size: 1.1rem;
+  line-height: 1.9;
+}
+
+.home-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.btn-outline {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  color: #fff;
+  background: transparent;
+}
+
+.home-intro {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-intro h2,
+.section-heading h2 {
+  color: #14243a;
+  font-size: clamp(1.8rem, 3.5vw, 2.7rem);
+  margin: 16px 0;
+}
+
+.home-intro > p,
+.section-heading > p {
+  max-width: 760px;
+  margin: 0 auto;
+  color: #566171;
+  line-height: 1.9;
+}
+
+.text-link {
+  display: inline-block;
+  margin-top: 24px;
+  color: #9b7735;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.home-services,
+.home-team {
+  background: #f5f6f8;
+}
+
+.section-heading {
+  max-width: 800px;
+  margin: 0 auto 44px;
+  text-align: center;
+}
+
+.home-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.home-centered-action {
+  margin-top: 36px;
+  text-align: center;
+}
+
+.home-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.home-benefit {
+  padding: 28px;
+  border-left: 3px solid #c5a15a;
+  background: #f7f8fa;
+}
+
+.home-benefit-number {
+  color: #b18a42;
+  font-weight: 700;
+}
+
+.home-benefit h3 {
+  margin: 16px 0 10px;
+  color: #14243a;
+}
+
+.home-benefit p {
+  color: #566171;
+  line-height: 1.8;
+}
+
+.home-team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.home-empty-message {
+  text-align: center;
+  color: #566171;
+}
+
+@media (max-width: 900px) {
+  .home-services-grid,
+  .home-benefits-grid,
+  .home-team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .home-hero,
+  .home-hero-overlay {
+    min-height: 540px;
+  }
+
+  .home-hero-content {
+    padding: 60px 20px;
+  }
+
+  .home-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-services-grid,
+  .home-benefits-grid,
+  .home-team-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Premium black and antique-gold homepage theme */
+
+.home-hero {
+  min-height: 680px;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(7, 7, 7, 0.97) 0%,
+      rgba(12, 12, 12, 0.88) 52%,
+      rgba(20, 17, 12, 0.42) 100%
+    ),
+    url("/images/hero.jpg") center / cover no-repeat;
+  border-bottom: 1px solid #8f6928;
+}
+
+.home-hero-overlay {
+  min-height: 680px;
+}
+
+.home-hero-content {
+  max-width: 1280px;
+}
+
+.home-eyebrow {
+  color: #d4af63;
+  font-size: 0.76rem;
+  letter-spacing: 3px;
+}
+
+.home-hero h1 {
+  max-width: 850px;
+  color: #fffaf0;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(3.5rem, 7vw, 6.2rem);
+  font-weight: 600;
+  line-height: 0.99;
+  letter-spacing: -1px;
+}
+
+.home-hero-content > p {
+  max-width: 660px;
+  color: #d2c9b9;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.home-hero-actions {
+  margin-top: 38px;
+  gap: 18px;
+}
+
+.home-intro {
+  max-width: 950px;
+}
+
+.home-intro h2,
+.section-heading h2 {
+  color: #17130e;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+}
+
+.home-intro > p,
+.section-heading > p {
+  color: #62594c;
+}
+
+.home-services,
+.home-team {
+  background: #ebe3d4;
+  border-top: 1px solid #d9c8a6;
+  border-bottom: 1px solid #d9c8a6;
+}
+
+.home-benefit {
+  background: #fffaf1;
+  border-left: 3px solid #a67c32;
+  box-shadow: 0 8px 24px rgba(32, 24, 12, 0.05);
+}
+
+.home-benefit-number {
+  color: #8f6928;
+}
+
+.home-benefit h3 {
+  color: #17130e;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.65rem;
+}
+
+.home-benefit p {
+  color: #62594c;
+}
+
+.text-link {
+  color: #8f6928;
+}
+
+.text-link:hover {
+  color: #17130e;
+}
+
+@media (max-width: 600px) {
+  .home-hero,
+  .home-hero-overlay {
+    min-height: 570px;
+  }
+
+  .home-hero h1 {
+    font-size: clamp(3rem, 12vw, 4rem);
+  }
+}

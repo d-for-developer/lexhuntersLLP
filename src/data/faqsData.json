@@ -1,0 +1,28 @@
+
+[
+  {
+    "id": "faq-1",
+    "question": "How can I request a consultation?",
+    "answer": "You can submit an inquiry through the Contact page with your contact details and a brief description of your legal concern."
+  },
+  {
+    "id": "faq-2",
+    "question": "What information should I provide for an initial inquiry?",
+    "answer": "Provide a general summary of the matter and the relevant dates. Avoid submitting sensitive or confidential documents until an appropriate communication method has been agreed upon."
+  },
+  {
+    "id": "faq-3",
+    "question": "Does submitting the contact form create an advocate-client relationship?",
+    "answer": "No. Submitting an inquiry or visiting the website does not automatically establish an advocate-client relationship."
+  },
+  {
+    "id": "faq-4",
+    "question": "Can I ask about a legal matter before deciding to proceed?",
+    "answer": "You can submit a general inquiry to ask about the consultation process. Any engagement, advice, and fees should be confirmed directly with the firm."
+  },
+  {
+    "id": "faq-5",
+    "question": "How do I find the appropriate practice area?",
+    "answer": "Review the Practice Areas page and select the service that most closely relates to your concern. You can also describe your inquiry through the Contact page."
+  }
+]

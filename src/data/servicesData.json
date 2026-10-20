@@ -1,0 +1,117 @@
+
+[
+  {
+    "id": "corporate-law",
+    "title": "Corporate & Commercial Law",
+    "icon": "§",
+    "shortDescription": "Legal support for businesses, commercial transactions, and corporate matters.",
+    "description": "Support with corporate documentation, commercial contracts, business structuring, and legal issues arising from commercial operations.",
+    "image": "/images/services/corporate-law.jpg",
+    "details": [
+      "Assistance with commercial agreements and business documentation.",
+      "Legal review of contractual terms and business arrangements.",
+      "Support with corporate compliance matters, subject to the applicable law."
+    ],
+    "features": [
+      "Commercial contract review",
+      "Business documentation",
+      "Corporate compliance guidance",
+      "Legal risk assessment"
+    ]
+  },
+  {
+    "id": "civil-litigation",
+    "title": "Civil Litigation",
+    "icon": "⚖",
+    "shortDescription": "Assistance with civil disputes, claims, and court proceedings.",
+    "description": "Legal assistance concerning civil disputes, contractual claims, property-related disputes, and other civil proceedings.",
+    "image": "/images/services/civil-litigation.jpg",
+    "details": [
+      "Review of dispute-related documents and relevant facts.",
+      "Assessment of potential legal remedies and procedural options.",
+      "Preparation and assistance with litigation documentation."
+    ],
+    "features": [
+      "Civil dispute assessment",
+      "Pleadings and documentation",
+      "Contractual disputes",
+      "Representation where engaged and authorized"
+    ]
+  },
+  {
+    "id": "criminal-law",
+    "title": "Criminal Law",
+    "icon": "⚖",
+    "shortDescription": "Legal assistance for criminal complaints, defence, and related proceedings.",
+    "description": "Assistance with understanding criminal procedure, evaluating case documents, and navigating applicable legal proceedings.",
+    "image": "/images/services/criminal-law.jpg",
+    "details": [
+      "Preliminary review of case facts and available documents.",
+      "Guidance on relevant procedural steps and legal options.",
+      "Assistance with legal documentation and proceedings where engaged."
+    ],
+    "features": [
+      "Case document review",
+      "Criminal procedure guidance",
+      "Bail-related legal assistance",
+      "Defence and representation where authorized"
+    ]
+  },
+  {
+    "id": "family-law",
+    "title": "Family Law",
+    "icon": "⌂",
+    "shortDescription": "Legal assistance for matrimonial, family, and related disputes.",
+    "description": "Guidance on family-law matters, including matrimonial disputes, maintenance, and other issues governed by applicable family laws.",
+    "image": "/images/services/family-law.jpg",
+    "details": [
+      "Initial review of the circumstances and relevant documents.",
+      "Explanation of potential legal options and procedures.",
+      "Assistance with family-law documentation and proceedings."
+    ],
+    "features": [
+      "Matrimonial disputes",
+      "Maintenance matters",
+      "Mutual consent proceedings",
+      "Family settlements and documentation"
+    ]
+  },
+  {
+    "id": "property-law",
+    "title": "Property & Real Estate Law",
+    "icon": "⌂",
+    "shortDescription": "Support with property documents, ownership disputes, and real estate matters.",
+    "description": "Legal assistance with property documentation, ownership issues, property transactions, and real estate disputes.",
+    "image": "/images/services/property-law.jpg",
+    "details": [
+      "Review of available property documents and agreements.",
+      "Identification of relevant legal and documentation issues.",
+      "Assistance with property-related disputes and transactions."
+    ],
+    "features": [
+      "Property document review",
+      "Sale and purchase agreements",
+      "Ownership disputes",
+      "Property-related legal notices"
+    ]
+  },
+  {
+    "id": "contract-drafting",
+    "title": "Contract Drafting & Review",
+    "icon": "§",
+    "shortDescription": "Drafting and review assistance for contracts and legal agreements.",
+    "description": "Assistance with preparing, reviewing, and understanding contractual terms for business and personal transactions.",
+    "image": "/images/services/contract-drafting.jpg",
+    "details": [
+      "Review of proposed contractual terms and obligations.",
+      "Identification of ambiguous clauses and potential risks.",
+      "Drafting assistance based on the parties' requirements."
+    ],
+    "features": [
+      "Service agreements",
+      "Non-disclosure agreements",
+      "Commercial contracts",
+      "Contract review and revisions"
+    ]
+  }
+]

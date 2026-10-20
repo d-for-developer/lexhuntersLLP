@@ -1,0 +1,134 @@
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #0b0b0b;
+  border-bottom: 2px solid #a67c32;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-container {
+  width: min(calc(100% - 48px), 1280px);
+  min-height: 92px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.navbar-logo {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  color: #d4af63;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.4rem, 2vw, 2rem);
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navbar-links a {
+  color: #f5f0e6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.navbar-links a:hover,
+.navbar-links a.active {
+  color: #d4af63;
+}
+
+.navbar-links .navbar-contact {
+  padding: 13px 17px;
+  color: #0b0b0b;
+  background: #c5a15a;
+  border: 1px solid #c5a15a;
+  border-radius: 2px;
+}
+
+.navbar-links .navbar-contact:hover {
+  color: #0b0b0b;
+  background: #dfc17e;
+  border-color: #dfc17e;
+}
+
+.navbar-toggle {
+  display: none;
+  padding: 8px 12px;
+  color: #d4af63;
+  background: transparent;
+  border: 1px solid #8f6928;
+  border-radius: 2px;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+  .navbar-container {
+    min-height: 78px;
+  }
+
+  .navbar-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 12px 24px 24px;
+    background: #111111;
+    border-bottom: 2px solid #a67c32;
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+
+  .navbar-links a {
+    padding: 14px 0;
+  }
+
+  .navbar-links .navbar-contact {
+    margin-top: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-container {
+    width: calc(100% - 28px);
+  }
+}
+
+.navbar-links button.navbar-contact {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  border-radius: 2px;
+}

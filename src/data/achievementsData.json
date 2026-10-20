@@ -1,0 +1,39 @@
+
+[
+  {
+    "id": "professional-standards",
+    "number": "01",
+    "title": "Commitment to Professional Standards",
+    "category": "Professional Values",
+    "year": "",
+    "description": "A commitment to careful preparation, professional responsibility, and client-focused legal service.",
+    "image": ""
+  },
+  {
+    "id": "legal-research",
+    "number": "02",
+    "title": "Research-Driven Legal Strategy",
+    "category": "Legal Practice",
+    "year": "",
+    "description": "Emphasis on structured legal research, document review, and thoughtful assessment of legal options.",
+    "image": ""
+  },
+  {
+    "id": "client-communication",
+    "number": "03",
+    "title": "Clear Client Communication",
+    "category": "Client Service",
+    "year": "",
+    "description": "A focus on explaining legal processes, relevant documentation, and available next steps in clear language.",
+    "image": ""
+  },
+  {
+    "id": "knowledge-sharing",
+    "number": "04",
+    "title": "Legal Knowledge Sharing",
+    "category": "Knowledge",
+    "year": "",
+    "description": "An emphasis on keeping legal information accessible and helping clients better understand their legal concerns.",
+    "image": ""
+  }
+]

@@ -1,0 +1,24 @@
+
+[
+  {
+    "id": "testimonial-1",
+    "name": "Sample Client One",
+    "role": "Business Client",
+    "rating": 5,
+    "text": "Placeholder testimonial for layout testing. Replace this with a genuine review published with the client's permission."
+  },
+  {
+    "id": "testimonial-2",
+    "name": "Sample Client Two",
+    "role": "Individual Client",
+    "rating": 5,
+    "text": "Sample text demonstrating how a client testimonial will appear on the website."
+  },
+  {
+    "id": "testimonial-3",
+    "name": "Sample Client Three",
+    "role": "Commercial Client",
+    "rating": 4,
+    "text": "Example content for testing the testimonial layout. Do not present this as a real client review."
+  }
+]

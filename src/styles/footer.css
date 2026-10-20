@@ -1,0 +1,248 @@
+
+.site-footer {
+  background: #0b1728;
+  color: #d4dbe5;
+}
+
+.footer-main {
+  width: min(calc(100% - 48px), var(--container-width, 1180px));
+  margin: 0 auto;
+  padding: 64px 0 48px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+  gap: 40px;
+}
+
+.footer-brand h2,
+.footer-column h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.footer-brand h2 {
+  font-size: 1.7rem;
+}
+
+.footer-brand p,
+.footer-column p {
+  color: #b8c2d0;
+  line-height: 1.9;
+}
+
+.footer-column h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.footer-column ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-column li {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-column a,
+.footer-legal-links a {
+  color: #c6ced9;
+  text-decoration: none;
+}
+
+.footer-column a:hover,
+.footer-legal-links a:hover {
+  color: #c5a15a;
+}
+
+.footer-bottom {
+  width: min(calc(100% - 48px), var(--container-width, 1180px));
+  margin: 0 auto;
+  padding: 22px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #aeb8c6;
+  font-size: 0.88rem;
+}
+
+.footer-legal-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .footer-main {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer-main {
+    width: calc(100% - 32px);
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 48px 0 32px;
+  }
+
+  .footer-bottom {
+    width: calc(100% - 32px);
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+.site-footer {
+  background: #090909;
+  color: #c8c0b2;
+  border-top: 2px solid #a67c32;
+}
+
+.footer-main {
+  width: min(calc(100% - 48px), 1180px);
+  margin: 0 auto;
+  padding: 75px 0 55px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.footer-brand h2,
+.footer-column h3 {
+  color: #d4af63;
+}
+
+.footer-brand h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.footer-brand p,
+.footer-column p {
+  color: #b6afa2;
+  line-height: 1.9;
+}
+
+.footer-column h3 {
+  margin-bottom: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.footer-column ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-column li {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-column a,
+.footer-legal-links a {
+  color: #c8c0b2;
+  font-size: 0.88rem;
+  text-decoration: none;
+}
+
+.footer-column a:hover,
+.footer-legal-links a:hover {
+  color: #d4af63;
+}
+
+.footer-contact-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #d4af63 !important;
+  font-weight: 700;
+}
+
+.footer-bottom {
+  width: min(calc(100% - 48px), 1180px);
+  margin: 0 auto;
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  border-top: 1px solid rgba(212, 175, 99, 0.25);
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #9d9588;
+  font-size: 0.8rem;
+}
+
+.footer-legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+@media (max-width: 900px) {
+  .footer-main {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 36px;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer-main {
+    width: calc(100% - 32px);
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 50px 0 36px;
+  }
+
+  .footer-bottom {
+    width: calc(100% - 32px);
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+.footer-consultation-button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #d4af63;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.footer-consultation-button:hover {
+  color: #ffffff;
+}
+

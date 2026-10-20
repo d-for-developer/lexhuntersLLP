@@ -1,0 +1,21 @@
+{
+  "settings": {
+    "brand": "LexHunters LLP",
+    "email": "replace-with-real-email",
+    "phone": "replace-with-real-phone"
+  },
+  "services": [
+    {
+      "id": "civil-litigation",
+      "title": "Civil Litigation",
+      "short": "Assistance with civil disputes and proceedings.",
+      "active": true
+    },
+    {
+      "id": "corporate-law",
+      "title": "Corporate Law",
+      "short": "Guidance for business and commercial matters.",
+      "active": true
+    }
+  ]
+}
