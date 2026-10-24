@@ -11,7 +11,7 @@ import "../styles/home.css";
 
 const Home = () => {
   const services = (servicesData || []).slice(0, 6);
-  const team = (teamData || []).slice(0, 3);
+  const team = teamData || [];
 
   return (
     <>
@@ -131,6 +131,7 @@ const Home = () => {
         </div>
       </section>
 
+
       {team.length > 0 && (
         <section className="section home-team">
           <div className="container">
@@ -138,13 +139,17 @@ const Home = () => {
               <span className="section-eyebrow">OUR TEAM</span>
               <h2>Meet Our Legal Professionals</h2>
               <p>
-                Learn more about the people behind our legal services.
+                Meet the people behind our legal practice, committed to
+                professional service and thoughtful legal guidance.
               </p>
             </div>
 
             <div className="home-team-grid">
               {team.map((member) => (
-                <TeamCard key={member.id || member.name} member={member} />
+                <TeamCard
+                  key={member.id || member.name}
+                  member={member}
+                />
               ))}
             </div>
 
@@ -156,6 +161,7 @@ const Home = () => {
           </div>
         </section>
       )}
+
 
       <ContactCTA />
     </>

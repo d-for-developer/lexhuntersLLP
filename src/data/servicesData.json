@@ -1,117 +1,323 @@
 
 [
   {
-    "id": "corporate-law",
-    "title": "Corporate & Commercial Law",
-    "icon": "§",
-    "shortDescription": "Legal support for businesses, commercial transactions, and corporate matters.",
-    "description": "Support with corporate documentation, commercial contracts, business structuring, and legal issues arising from commercial operations.",
-    "image": "/images/services/corporate-law.jpg",
-    "details": [
-      "Assistance with commercial agreements and business documentation.",
-      "Legal review of contractual terms and business arrangements.",
-      "Support with corporate compliance matters, subject to the applicable law."
-    ],
-    "features": [
-      "Commercial contract review",
-      "Business documentation",
-      "Corporate compliance guidance",
-      "Legal risk assessment"
-    ]
-  },
-  {
     "id": "civil-litigation",
-    "title": "Civil Litigation",
+    "title": "Civil Litigation & Dispute Resolution",
     "icon": "⚖",
-    "shortDescription": "Assistance with civil disputes, claims, and court proceedings.",
-    "description": "Legal assistance concerning civil disputes, contractual claims, property-related disputes, and other civil proceedings.",
+    "shortDescription": "Legal assistance for civil disputes, court proceedings, claims, and dispute resolution.",
+    "description": "Assistance with civil litigation and dispute resolution matters before appropriate courts and legal forums, including the Supreme Court of India, High Courts, District Courts, and other competent authorities, subject to the scope of engagement.",
     "image": "/images/services/civil-litigation.jpg",
     "details": [
-      "Review of dispute-related documents and relevant facts.",
-      "Assessment of potential legal remedies and procedural options.",
-      "Preparation and assistance with litigation documentation."
+      "Preparation and drafting of plaints, petitions, appeals, replies, rejoinders, applications, and other court pleadings.",
+      "Review of case documents, legal research, and assessment of procedural options.",
+      "Assistance with litigation and alternative dispute resolution proceedings."
     ],
     "features": [
-      "Civil dispute assessment",
-      "Pleadings and documentation",
-      "Contractual disputes",
-      "Representation where engaged and authorized"
+      "Civil litigation",
+      "Court pleadings and applications",
+      "Alternative dispute resolution",
+      "Legal research and case-law preparation",
+      "Court representation where engaged and authorized"
     ]
   },
   {
     "id": "criminal-law",
     "title": "Criminal Law",
     "icon": "⚖",
-    "shortDescription": "Legal assistance for criminal complaints, defence, and related proceedings.",
-    "description": "Assistance with understanding criminal procedure, evaluating case documents, and navigating applicable legal proceedings.",
+    "shortDescription": "Legal assistance in criminal litigation, criminal proceedings, and related legal matters.",
+    "description": "Assistance with criminal-law matters, procedural requirements, case documentation, and representation before competent courts and authorities, subject to applicable law and professional authorization.",
     "image": "/images/services/criminal-law.jpg",
     "details": [
-      "Preliminary review of case facts and available documents.",
-      "Guidance on relevant procedural steps and legal options.",
-      "Assistance with legal documentation and proceedings where engaged."
+      "Review of case facts, complaints, and relevant legal documents.",
+      "Drafting and preparation of appropriate criminal proceedings and applications.",
+      "Legal research and assistance with defence and other criminal litigation matters."
     ],
     "features": [
-      "Case document review",
-      "Criminal procedure guidance",
-      "Bail-related legal assistance",
-      "Defence and representation where authorized"
+      "Criminal litigation",
+      "Criminal case documentation",
+      "Procedural legal assistance",
+      "Court pleadings and applications",
+      "Representation where engaged and authorized"
     ]
   },
   {
-    "id": "family-law",
-    "title": "Family Law",
+    "id": "corporate-company-law",
+    "title": "Corporate & Company Law",
+    "icon": "§",
+    "shortDescription": "Legal assistance for corporate disputes, company-law matters, and commercial legal issues.",
+    "description": "Assistance with corporate and company-law matters, including disputes arising under company legislation and proceedings before appropriate courts, tribunals, and statutory authorities.",
+    "image": "/images/services/corporate-law.jpg",
+    "details": [
+      "Assistance with corporate disputes and company-law proceedings.",
+      "Preparation and review of corporate legal documentation.",
+      "Support with matters before the National Company Law Tribunal and National Company Law Appellate Tribunal, where engaged."
+    ],
+    "features": [
+      "Corporate litigation",
+      "Company-law disputes",
+      "Corporate documentation",
+      "NCLT-related matters",
+      "Legal research and procedural assistance"
+    ]
+  },
+  {
+    "id": "regulatory-law",
+    "title": "Regulatory & Administrative Law",
+    "icon": "§",
+    "shortDescription": "Assistance with regulatory matters, administrative proceedings, and statutory compliance disputes.",
+    "description": "Legal assistance concerning regulatory frameworks, administrative decisions, statutory obligations, and proceedings before competent judicial and quasi-judicial forums.",
+    "image": "/images/services/regulatory-law.jpg",
+    "details": [
+      "Review of regulatory notices, orders, and related documentation.",
+      "Preparation of representations, petitions, appeals, and applications.",
+      "Assistance with proceedings before appropriate regulatory and administrative authorities."
+    ],
+    "features": [
+      "Regulatory litigation",
+      "Administrative law matters",
+      "Statutory proceedings",
+      "Legal documentation",
+      "Regulatory dispute assistance"
+    ]
+  },
+  {
+    "id": "educational-law",
+    "title": "Educational Law",
+    "icon": "▤",
+    "shortDescription": "Legal assistance involving educational institutions, educational rights, and related disputes.",
+    "description": "Assistance with legal matters concerning educational institutions, institutional administration, educational rights, and related proceedings before competent courts, commissions, and authorities.",
+    "image": "/images/services/educational-law.jpg",
+    "details": [
+      "Assistance with disputes involving educational institutions and their administration.",
+      "Preparation of legal pleadings and documentation concerning educational matters.",
+      "Representation-related assistance in proceedings before competent courts and educational authorities, where engaged."
+    ],
+    "features": [
+      "Educational institution disputes",
+      "Educational rights matters",
+      "Regulatory proceedings",
+      "Institution-related legal documentation",
+      "Court and commission proceedings"
+    ]
+  },
+  {
+    "id": "intellectual-property-law",
+    "title": "Intellectual Property Law",
+    "icon": "©",
+    "shortDescription": "Legal assistance concerning intellectual property rights and related disputes.",
+    "description": "Assistance with intellectual property matters, related legal documentation, disputes, and proceedings before competent courts and authorities.",
+    "image": "/images/services/intellectual-property.jpg",
+    "details": [
+      "Review of documents and issues relating to intellectual property rights.",
+      "Preparation of legal notices, pleadings, and supporting documentation.",
+      "Assistance with intellectual property disputes and related proceedings."
+    ],
+    "features": [
+      "Intellectual property disputes",
+      "Legal notices and documentation",
+      "Rights-related litigation",
+      "Legal research",
+      "Proceedings before competent forums"
+    ]
+  },
+  {
+    "id": "taxation-gst",
+    "title": "Taxation, Customs & GST",
+    "icon": "₹",
+    "shortDescription": "Legal assistance with direct taxation, customs, indirect taxation, and GST disputes.",
+    "description": "Assistance with tax-related legal matters and disputes before appropriate courts, tribunals, and statutory authorities, including matters concerning direct taxes, customs, and Goods and Services Tax.",
+    "image": "/images/services/taxation-law.jpg",
+    "details": [
+      "Review of tax-related notices, orders, and legal documents.",
+      "Preparation of relevant appeals, pleadings, and applications.",
+      "Assistance with proceedings before appropriate tax and customs forums, subject to engagement."
+    ],
+    "features": [
+      "Direct tax disputes",
+      "Customs and indirect taxation",
+      "GST-related legal matters",
+      "Tax appeals and documentation",
+      "Tribunal proceedings"
+    ]
+  },
+  {
+    "id": "cyber-law",
+    "title": "Cyber Law & Digital Disputes",
+    "icon": "⌘",
+    "shortDescription": "Legal assistance involving cybercrime, digital fraud, and technology-related disputes.",
+    "description": "Assistance with cyber-law matters, digital disputes, cybercrime-related proceedings, and relevant legal processes before competent courts and authorities.",
+    "image": "/images/services/cyber-law.jpg",
+    "details": [
+      "Review of documents and facts relating to cybercrime and digital disputes.",
+      "Preparation of relevant complaints, applications, and legal pleadings.",
+      "Assistance with proceedings before competent judicial and statutory forums."
+    ],
+    "features": [
+      "Cybercrime-related matters",
+      "Digital fraud disputes",
+      "Cyber-law documentation",
+      "Technology-related legal proceedings",
+      "Legal research and procedural assistance"
+    ]
+  },
+  {
+    "id": "family-matrimonial-law",
+    "title": "Matrimonial & Family Law",
     "icon": "⌂",
-    "shortDescription": "Legal assistance for matrimonial, family, and related disputes.",
-    "description": "Guidance on family-law matters, including matrimonial disputes, maintenance, and other issues governed by applicable family laws.",
+    "shortDescription": "Legal assistance for matrimonial disputes and other family-law matters.",
+    "description": "Assistance with matrimonial and family-law disputes, related documentation, and proceedings under applicable laws before competent courts and authorities.",
     "image": "/images/services/family-law.jpg",
     "details": [
-      "Initial review of the circumstances and relevant documents.",
-      "Explanation of potential legal options and procedures.",
-      "Assistance with family-law documentation and proceedings."
+      "Review of circumstances and relevant family-law documents.",
+      "Preparation of petitions, replies, applications, and related pleadings.",
+      "Assistance with matrimonial and other family-law proceedings."
     ],
     "features": [
       "Matrimonial disputes",
-      "Maintenance matters",
-      "Mutual consent proceedings",
-      "Family settlements and documentation"
+      "Family-law litigation",
+      "Legal petitions and applications",
+      "Family-related documentation",
+      "Representation where engaged and authorized"
     ]
   },
   {
-    "id": "property-law",
-    "title": "Property & Real Estate Law",
+    "id": "property-land-acquisition",
+    "title": "Property & Land Acquisition Law",
     "icon": "⌂",
-    "shortDescription": "Support with property documents, ownership disputes, and real estate matters.",
-    "description": "Legal assistance with property documentation, ownership issues, property transactions, and real estate disputes.",
+    "shortDescription": "Legal assistance involving property disputes, land acquisition, and related proceedings.",
+    "description": "Assistance with property-related disputes, land acquisition matters, property documentation, and proceedings before competent courts and authorities.",
     "image": "/images/services/property-law.jpg",
     "details": [
-      "Review of available property documents and agreements.",
-      "Identification of relevant legal and documentation issues.",
-      "Assistance with property-related disputes and transactions."
+      "Review of property documents and land-related legal records.",
+      "Preparation of petitions, claims, appeals, and supporting documents.",
+      "Assistance with land acquisition disputes and property litigation."
     ],
     "features": [
-      "Property document review",
-      "Sale and purchase agreements",
-      "Ownership disputes",
-      "Property-related legal notices"
+      "Property disputes",
+      "Land acquisition matters",
+      "Property documentation",
+      "Land-related litigation",
+      "Court proceedings and legal research"
     ]
   },
   {
-    "id": "contract-drafting",
-    "title": "Contract Drafting & Review",
+    "id": "labour-service-employment-law",
+    "title": "Labour, Service & Employment Law",
     "icon": "§",
-    "shortDescription": "Drafting and review assistance for contracts and legal agreements.",
-    "description": "Assistance with preparing, reviewing, and understanding contractual terms for business and personal transactions.",
-    "image": "/images/services/contract-drafting.jpg",
+    "shortDescription": "Legal assistance with employment disputes, public service matters, and service conditions.",
+    "description": "Assistance with labour, employment, and service-law matters, including recruitment, conditions of service, and related disputes before competent courts, tribunals, and authorities.",
+    "image": "/images/services/employment-law.jpg",
     "details": [
-      "Review of proposed contractual terms and obligations.",
-      "Identification of ambiguous clauses and potential risks.",
-      "Drafting assistance based on the parties' requirements."
+      "Review of employment-related documents, service records, and orders.",
+      "Preparation of representations, petitions, appeals, and applications.",
+      "Assistance with service-related proceedings before appropriate tribunals and courts."
     ],
     "features": [
-      "Service agreements",
-      "Non-disclosure agreements",
-      "Commercial contracts",
-      "Contract review and revisions"
+      "Employment disputes",
+      "Recruitment-related matters",
+      "Conditions of service",
+      "Public service litigation",
+      "Administrative tribunal proceedings"
+    ]
+  },
+  {
+    "id": "insolvency-debt-recovery",
+    "title": "Insolvency & Debt Recovery",
+    "icon": "₹",
+    "shortDescription": "Legal assistance involving insolvency disputes, financial claims, and debt recovery proceedings.",
+    "description": "Assistance with insolvency-related disputes, financial claims, and debt recovery proceedings before competent courts, tribunals, and other legal forums.",
+    "image": "/images/services/debt-recovery.jpg",
+    "details": [
+      "Review of financial claims, relevant agreements, and supporting records.",
+      "Preparation of claims, applications, appeals, and other legal documents.",
+      "Assistance with proceedings before appropriate debt recovery and insolvency forums."
+    ],
+    "features": [
+      "Debt recovery disputes",
+      "Financial claims",
+      "Insolvency-related proceedings",
+      "Tribunal documentation",
+      "Legal research and litigation support"
+    ]
+  },
+  {
+    "id": "competition-law",
+    "title": "Competition Law",
+    "icon": "§",
+    "shortDescription": "Legal assistance concerning competition-related disputes and regulatory proceedings.",
+    "description": "Assistance with competition-law matters, market-related disputes, and proceedings before competent courts and regulatory authorities, subject to the nature of the matter.",
+    "image": "/images/services/competition-law.jpg",
+    "details": [
+      "Review of documents and issues relating to competition-law disputes.",
+      "Preparation of legal submissions, applications, and supporting documentation.",
+      "Assistance with proceedings before the Competition Commission of India and other competent forums, where applicable."
+    ],
+    "features": [
+      "Competition-law disputes",
+      "Regulatory proceedings",
+      "Legal submissions and documentation",
+      "Market-related legal matters",
+      "Tribunal and court assistance"
+    ]
+  },
+  {
+    "id": "consumer-law",
+    "title": "Consumer Disputes",
+    "icon": "⚖",
+    "shortDescription": "Legal assistance concerning consumer claims and consumer dispute proceedings.",
+    "description": "Assistance with consumer-related disputes, legal documentation, claims, and proceedings before competent consumer commissions and other appropriate forums.",
+    "image": "/images/services/consumer-law.jpg",
+    "details": [
+      "Review of consumer complaints, transaction records, and supporting documents.",
+      "Preparation of complaints, replies, appeals, and related legal submissions.",
+      "Assistance with proceedings before appropriate consumer dispute commissions."
+    ],
+    "features": [
+      "Consumer complaints",
+      "Consumer dispute documentation",
+      "Appeals and legal submissions",
+      "Consumer commission proceedings",
+      "Legal research and litigation support"
+    ]
+  },
+  {
+    "id": "tribunal-litigation",
+    "title": "Tribunal & Commission Litigation",
+    "icon": "⚖",
+    "shortDescription": "Legal assistance with proceedings before specialized tribunals, commissions, and quasi-judicial forums.",
+    "description": "Assistance with litigation and legal proceedings before appropriate tribunals, commissions, and quasi-judicial bodies, depending on the subject matter and applicable jurisdiction.",
+    "image": "/images/services/tribunal-litigation.jpg",
+    "details": [
+      "Preparation of tribunal applications, appeals, pleadings, and supporting documents.",
+      "Legal research and procedural assistance for specialized proceedings.",
+      "Assistance with matters before competent statutory and quasi-judicial forums."
+    ],
+    "features": [
+      "Administrative tribunal matters",
+      "Company-law tribunal proceedings",
+      "Debt recovery tribunals",
+      "Tax and customs tribunals",
+      "Consumer and statutory commissions"
+    ]
+  },
+  {
+    "id": "legal-drafting-research",
+    "title": "Legal Drafting, Advisory & Research",
+    "icon": "§",
+    "shortDescription": "Legal drafting, case-law research, documentation, and advisory assistance.",
+    "description": "Assistance with preparing legal documents, court pleadings, opinions, case-law research, and other legal materials based on the requirements of the matter.",
+    "image": "/images/services/legal-drafting.jpg",
+    "details": [
+      "Drafting agreements, contracts, deeds, wills, and other legal documents.",
+      "Preparation of plaints, writs, appeals, counter-affidavits, rejoinders, and applications.",
+      "Legal research, case-law preparation, and advisory work within the scope of engagement."
+    ],
+    "features": [
+      "Legal document drafting",
+      "Court pleading preparation",
+      "Legal opinions and advisory assistance",
+      "Case-law research",
+      "Contract and agreement review"
     ]
   }
 ]

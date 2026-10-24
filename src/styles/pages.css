@@ -308,18 +308,22 @@
   box-shadow: 0 14px 32px rgba(16, 29, 50, 0.1);
 }
 
+
 .team-card-image {
-  height: 260px;
-  background: #edf0f4;
+  width: 100%;
+  aspect-ratio: 2 / 3;
   overflow: hidden;
+  background: #edf0f4;
 }
 
 .team-card-image img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
+  object-position: center top;
 }
+
 
 .team-card-placeholder {
   height: 100%;

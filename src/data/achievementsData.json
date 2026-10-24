@@ -1,39 +1,57 @@
 
 [
   {
-    "id": "professional-standards",
+    "id": "supreme-court-high-courts",
     "number": "01",
-    "title": "Commitment to Professional Standards",
+    "title": "Court & Appellate Litigation",
+    "category": "Litigation",
+    "year": "",
+    "description": "Legal practice involving matters before the Supreme Court of India, various High Courts and their benches, and other competent judicial forums, subject to the scope of engagement.",
+    "image": "/images/achievements/court-litigation.jpg"
+  },
+  {
+    "id": "tribunal-commission-practice",
+    "number": "02",
+    "title": "Tribunal & Commission Practice",
+    "category": "Specialized Legal Practice",
+    "year": "",
+    "description": "Work across specialized legal matters involving administrative, company-law, debt recovery, taxation, consumer, educational and other statutory tribunals and commissions, as applicable.",
+    "image": "/images/achievements/tribunal-practice.jpg"
+  },
+  {
+    "id": "diverse-areas-of-law",
+    "number": "03",
+    "title": "Comprehensive Areas of Legal Practice",
+    "category": "Legal Expertise",
+    "year": "",
+    "description": "A broad practice covering civil and criminal litigation, corporate and company law, intellectual property, taxation, cyber law, educational law, property disputes, employment law, insolvency and family law.",
+    "image": "/images/achievements/legal-expertise.jpg"
+  },
+  {
+    "id": "legal-drafting-research",
+    "number": "04",
+    "title": "Legal Drafting & Research",
+    "category": "Legal Services",
+    "year": "",
+    "description": "Preparation of legal documents, court pleadings, petitions, appeals, applications and supporting materials, alongside case-law research and legal analysis.",
+    "image": "/images/achievements/legal-research.jpg"
+  },
+  {
+    "id": "regional-legal-presence",
+    "number": "05",
+    "title": "Regional Legal Network",
+    "category": "Geographic Reach",
+    "year": "",
+    "description": "The firm's supplied profile identifies associated regional offices across multiple Indian cities, supporting its stated focus on legal matters across different jurisdictions.",
+    "image": "/images/achievements/regional-network.jpg"
+  },
+  {
+    "id": "professional-integrity",
+    "number": "06",
+    "title": "Professional Integrity & Responsibility",
     "category": "Professional Values",
     "year": "",
-    "description": "A commitment to careful preparation, professional responsibility, and client-focused legal service.",
-    "image": ""
-  },
-  {
-    "id": "legal-research",
-    "number": "02",
-    "title": "Research-Driven Legal Strategy",
-    "category": "Legal Practice",
-    "year": "",
-    "description": "Emphasis on structured legal research, document review, and thoughtful assessment of legal options.",
-    "image": ""
-  },
-  {
-    "id": "client-communication",
-    "number": "03",
-    "title": "Clear Client Communication",
-    "category": "Client Service",
-    "year": "",
-    "description": "A focus on explaining legal processes, relevant documentation, and available next steps in clear language.",
-    "image": ""
-  },
-  {
-    "id": "knowledge-sharing",
-    "number": "04",
-    "title": "Legal Knowledge Sharing",
-    "category": "Knowledge",
-    "year": "",
-    "description": "An emphasis on keeping legal information accessible and helping clients better understand their legal concerns.",
-    "image": ""
+    "description": "A stated commitment to fairness, integrity, ethics, diligence, professional excellence, social responsibility and responsible legal service.",
+    "image": "/images/achievements/professional-integrity.jpg"
   }
 ]

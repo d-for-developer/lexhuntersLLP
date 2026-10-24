@@ -1,35 +1,19 @@
 
 [
   {
-    "id": "team-member-1",
-    "name": "Aarav Sharma",
+    "id": "mayank-manish",
+    "name": "Mayank Manish",
     "designation": "Managing Partner",
-    "specialization": "Corporate & Commercial Law",
-    "bio": "Sample profile for a legal professional. Replace this biography with verified qualifications, experience, and practice details.",
-    "image": "/images/team/team-member-1.jpg"
+    "specialization": "Litigation & Legal Practice",
+    "bio": "Mayank Manish is a Managing Partner at LexHunters LLP. His professional profile can be expanded with verified qualifications, bar enrolment details, years of experience, and specific areas of legal practice.",
+    "image": "/images/team/mayank-manish.jpg"
   },
   {
-    "id": "team-member-2",
-    "name": "Priya Mehta",
-    "designation": "Partner",
-    "specialization": "Civil Litigation",
-    "bio": "Sample profile describing experience in dispute resolution and civil proceedings. Replace with accurate professional information.",
-    "image": "/images/team/team-member-2.jpg"
-  },
-  {
-    "id": "team-member-3",
-    "name": "Rohan Verma",
-    "designation": "Associate",
-    "specialization": "Contracts & Property Law",
-    "bio": "Sample profile for a legal associate. Add verified education, enrolment information where appropriate, and actual areas of practice.",
-    "image": "/images/team/team-member-3.jpg"
-  },
-  {
-    "id": "team-member-4",
-    "name": "Ananya Kapoor",
-    "designation": "Associate",
-    "specialization": "Family Law",
-    "bio": "Sample profile for a legal professional. Replace this text with an approved and accurate professional biography.",
-    "image": "/images/team/team-member-4.jpg"
+    "id": "ravi-kant",
+    "name": "Ravi Kant",
+    "designation": "Managing Partner",
+    "specialization": "Litigation & Legal Practice",
+    "bio": "Ravi Kant is a Managing Partner at LexHunters LLP. His professional profile can be expanded with verified qualifications, bar enrolment details, years of experience, and specific areas of legal practice.",
+    "image": "/images/team/ravi-kant.jpg"
   }
 ]

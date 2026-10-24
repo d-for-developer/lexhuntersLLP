@@ -20,6 +20,8 @@ const Contact = () => {
       ...previous,
       [name]: value,
     }));
+
+    setSubmitted(false);
   };
 
   const handleSubmit = (event) => {
@@ -53,7 +55,9 @@ const Contact = () => {
       });
     } catch (error) {
       console.error("Unable to save inquiry:", error);
-      alert("Unable to save your inquiry in this browser. Please try again.");
+      alert(
+        "Unable to save your inquiry in this browser. Please try again."
+      );
     }
   };
 
@@ -61,55 +65,91 @@ const Contact = () => {
     <>
       <PageHeader
         title="Contact Us"
-        subtitle="Get in touch with LexHunters LLP to discuss your legal inquiry."
+        subtitle="Contact Mayank Ravi Legal Associates for information about our legal practice and offices."
       />
 
       <section className="section container contact-page">
         <div className="contact-info">
           <span className="section-eyebrow">GET IN TOUCH</span>
-          <h2>Let's Discuss Your Legal Needs</h2>
+
+          <h2>Mayank Ravi Legal Associates</h2>
+
           <p>
-            Share a brief overview of your inquiry using the form. Our team
-            can review your request and advise you on the appropriate next
-            steps.
+            Our head office is located in New Delhi, with regional
+            offices across several cities and chambers at the Supreme
+            Court of India.
           </p>
 
           <div className="contact-info-item">
-            <h3>Office</h3>
+            <h3>Head Office</h3>
             <p>
-              Please add your verified office address here.
+              Q-22-B, Jangpura Extension,
+              <br />
+              New Delhi – 110014, India
+            </p>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Q-22-B+Jangpura+Extension+New+Delhi+110014"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Get Directions →
+            </a>
+          </div>
+
+          <div className="contact-info-item">
+            <h3>Supreme Court Chambers</h3>
+            <p>
+              20-A, Lawyers Chambers,
+              <br />
+              Supreme Court of India,
+              <br />
+              New Delhi – 110001
+            </p>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=20-A+Lawyers+Chambers+Supreme+Court+of+India+New+Delhi"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Get Directions →
+            </a>
+          </div>
+
+          <div className="contact-info-item">
+            <h3>Regional Offices</h3>
+            <p>
+              Chandigarh, Lucknow, Jaipur, Patna, Kolkata, Indore,
+              Mumbai and Bangalore.
             </p>
           </div>
 
           <div className="contact-info-item">
             <h3>Email</h3>
             <p>
-              <a href="mailto:info@lexhunters.com">
-                info@lexhunters.com
+              <a href="mailto:mayankravilegaloffice@gmail.com">
+                mayankravilegaloffice@gmail.com
               </a>
             </p>
-            <small>Replace this with your firm's verified email address.</small>
           </div>
 
           <div className="contact-info-item">
-            <h3>Phone</h3>
+            <h3>Telephone</h3>
             <p>
-              <a href="tel:+910000000000">+91 XXXXX XXXXX</a>
+              <a href="tel:+911147522337">011-47522337</a>
             </p>
-            <small>Replace this with your firm's verified phone number.</small>
           </div>
         </div>
 
         <div className="contact-form-wrapper">
           <h2>Send an Inquiry</h2>
+
           <p className="contact-form-description">
             Fields marked with * are required.
           </p>
 
           {submitted && (
             <div className="form-success" role="status">
-              Your inquiry has been saved in this browser. This is a demo
-              form and your message has not been sent to the firm.
+              Your inquiry has been saved in this browser. This is a
+              demo form; your message has not been sent to the firm.
             </div>
           )}
 
@@ -156,7 +196,10 @@ const Contact = () => {
             </div>
 
             <div className="form-group">
-              <label htmlFor="service">Area of Legal Assistance *</label>
+              <label htmlFor="service">
+                Area of Legal Assistance *
+              </label>
+
               <select
                 id="service"
                 name="service"
@@ -165,12 +208,22 @@ const Contact = () => {
                 required
               >
                 <option value="">Select a service</option>
-                <option value="Corporate Law">Corporate Law</option>
                 <option value="Civil Litigation">Civil Litigation</option>
                 <option value="Criminal Law">Criminal Law</option>
-                <option value="Family Law">Family Law</option>
+                <option value="Corporate & Company Law">
+                  Corporate & Company Law
+                </option>
+                <option value="Educational Law">Educational Law</option>
+                <option value="Intellectual Property">
+                  Intellectual Property
+                </option>
+                <option value="Taxation & GST">Taxation & GST</option>
+                <option value="Cyber Law">Cyber Law</option>
+                <option value="Family & Matrimonial Law">
+                  Family & Matrimonial Law
+                </option>
                 <option value="Property Law">Property Law</option>
-                <option value="Contract Drafting">Contract Drafting</option>
+                <option value="Employment Law">Employment Law</option>
                 <option value="Other">Other</option>
               </select>
             </div>
@@ -183,15 +236,15 @@ const Contact = () => {
                 value={formData.message}
                 onChange={handleChange}
                 placeholder="Briefly describe your inquiry. Avoid sharing confidential details."
-                rows="5"
+                rows={5}
                 required
               />
             </div>
 
             <p className="contact-privacy-note">
-              Please do not include sensitive or confidential documents in
-              this demo form. Submitting this form does not establish an
-              advocate-client relationship.
+              Please avoid including sensitive or confidential
+              documents in this demo form. Submitting this form does
+              not establish an advocate-client relationship.
             </p>
 
             <button type="submit" className="btn btn-primary">

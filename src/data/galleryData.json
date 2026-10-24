@@ -1,0 +1,58 @@
+
+[
+  {
+    "id": "team-1",
+    "image": "/images/gallery/001.jpg",
+    "alt": "LexHunters LLP team member"
+  },
+  {
+    "id": "team-2",
+    "image": "/images/gallery/002.jpg",
+    "alt": "LexHunters LLP team member"
+  },
+  {
+    "id": "team-3",
+    "image": "/images/gallery/003.jpg",
+    "alt": "LexHunters LLP team member"
+  },
+  {
+    "id": "team-4",
+    "image": "/images/gallery/004.jpg",
+    "alt": "LexHunters LLP team member"
+  },
+  {
+    "id": "team-5",
+    "image": "/images/gallery/005.jpg",
+    "alt": "LexHunters LLP team member"
+  },
+  {
+    "id": "team-6",
+    "image": "/images/gallery/006.jpg",
+    "alt": "LexHunters LLP team member"
+  },
+  {
+    "id": "team-7",
+    "image": "/images/gallery/007.jpg",
+    "alt": "LexHunters LLP team member"
+  },
+  {
+    "id": "team-8",
+    "image": "/images/gallery/008.jpg",
+    "alt": "LexHunters LLP team member"
+  },
+  {
+    "id": "team-9",
+    "image": "/images/gallery/009.jpg",
+    "alt": "LexHunters LLP team member"
+  },
+  {
+    "id": "team-10",
+    "image": "/images/gallery/010.jpg",
+    "alt": "LexHunters LLP team member"
+  },
+  {
+    "id": "team-11",
+    "image": "/images/gallery/011.jpg",
+    "alt": "LexHunters LLP team member"
+  }
+]

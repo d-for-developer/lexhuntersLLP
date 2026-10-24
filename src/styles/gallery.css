@@ -1,0 +1,358 @@
+
+/* ========================================
+   GALLERY PAGE
+======================================== */
+
+.gallery-page {
+  padding-top: 70px;
+  padding-bottom: 90px;
+  background: #f5f0e6;
+}
+
+.gallery-intro {
+  max-width: 720px;
+  margin: 0 auto 38px;
+  text-align: center;
+}
+
+.gallery-intro h2 {
+  margin: 12px 0;
+  color: var(--gold, #c7a65f);
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(30px, 4vw, 44px);
+}
+
+.gallery-intro p {
+  color: var(--text-muted, #777064);
+  line-height: 1.8;
+}
+
+/* ========================================
+   GALLERY GRID
+======================================== */
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  align-items: stretch;
+}
+
+/* Individual image card */
+
+.gallery-card {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  aspect-ratio: 2 / 3;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  overflow: hidden;
+  background: #e9e2d5;
+  border: 1px solid rgba(199, 166, 95, 0.5);
+  border-radius: 4px;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+/* Show the complete image without cropping */
+
+.gallery-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center center;
+  transition: transform 0.35s ease;
+}
+
+.gallery-card:hover img,
+.gallery-card:focus-visible img {
+  transform: scale(1.02);
+}
+
+.gallery-card:focus-visible {
+  outline: 2px solid #c7a65f;
+  outline-offset: 4px;
+}
+
+/* Optional zoom icon */
+
+.gallery-card-icon {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-radius: 50%;
+  background: rgba(18, 18, 16, 0.8);
+  color: #d9b96f;
+  font-size: 25px;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.gallery-card:hover .gallery-card-icon,
+.gallery-card:focus-visible .gallery-card-icon {
+  opacity: 1;
+}
+
+/* Legacy overlays: hidden because images have no titles */
+
+.gallery-card-overlay,
+.gallery-card-category,
+.gallery-card-title,
+.gallery-view-icon {
+  display: none;
+}
+
+/* Empty gallery state */
+
+.gallery-empty {
+  padding: 30px;
+  color: #777064;
+  text-align: center;
+}
+
+/* ========================================
+   LIGHTBOX
+======================================== */
+
+.gallery-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 70px 60px 35px;
+  background: rgba(5, 5, 5, 0.96);
+}
+
+/* Lightbox image container */
+
+.gallery-lightbox-figure,
+.gallery-lightbox-content {
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 0;
+  text-align: center;
+}
+
+/* Never crop the enlarged image */
+
+.gallery-lightbox-figure img,
+.gallery-lightbox-content img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: calc(100vw - 160px);
+  max-height: calc(100vh - 150px);
+  object-fit: contain;
+  object-position: center;
+  margin: auto;
+  border: 1px solid rgba(199, 166, 95, 0.45);
+}
+
+.gallery-lightbox-figure figcaption {
+  padding-top: 8px;
+  color: #eee9df;
+}
+
+.gallery-lightbox-figure figcaption span {
+  color: #d9b96f;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.gallery-lightbox-figure figcaption h3 {
+  margin: 6px 0;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 26px;
+}
+
+.gallery-lightbox-figure figcaption p {
+  color: #aaa398;
+  font-size: 12px;
+}
+
+/* Image counter */
+
+.gallery-image-count {
+  margin: 0;
+  color: #d9b96f;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+/* Lightbox controls */
+
+.gallery-lightbox-close,
+.gallery-lightbox-nav {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: #f3e8ce;
+  background: #171612;
+  border: 1px solid #9d824c;
+  cursor: pointer;
+  transition:
+    color 0.25s ease,
+    background 0.25s ease;
+}
+
+.gallery-lightbox-close {
+  top: 20px;
+  right: 25px;
+  width: 44px;
+  height: 44px;
+  font-size: 30px;
+}
+
+.gallery-lightbox-nav {
+  top: 50%;
+  width: 46px;
+  height: 56px;
+  font-size: 30px;
+  transform: translateY(-50%);
+}
+
+.gallery-lightbox-nav.previous,
+.gallery-lightbox-prev {
+  left: 18px;
+}
+
+.gallery-lightbox-nav.next,
+.gallery-lightbox-next {
+  right: 18px;
+}
+
+.gallery-lightbox-close:hover,
+.gallery-lightbox-nav:hover {
+  color: #111;
+  background: #c7a65f;
+}
+
+.gallery-lightbox-close:focus-visible,
+.gallery-lightbox-nav:focus-visible {
+  outline: 2px solid #c7a65f;
+  outline-offset: 4px;
+}
+
+/* ========================================
+   TABLET
+======================================== */
+
+@media (max-width: 900px) {
+  .gallery-page {
+    padding-top: 55px;
+    padding-bottom: 70px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .gallery-lightbox {
+    padding: 65px 50px 30px;
+  }
+
+  .gallery-lightbox-figure img,
+  .gallery-lightbox-content img {
+    max-width: calc(100vw - 120px);
+    max-height: calc(100vh - 140px);
+  }
+
+  .gallery-lightbox-nav.previous,
+  .gallery-lightbox-prev {
+    left: 8px;
+  }
+
+  .gallery-lightbox-nav.next,
+  .gallery-lightbox-next {
+    right: 8px;
+  }
+}
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 560px) {
+  .gallery-page {
+    padding-top: 40px;
+    padding-bottom: 55px;
+  }
+
+  .gallery-intro {
+    margin-bottom: 28px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .gallery-card {
+    aspect-ratio: 2 / 3;
+  }
+
+  .gallery-card-icon {
+    right: 8px;
+    bottom: 8px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+
+  .gallery-lightbox {
+    padding: 60px 12px 25px;
+  }
+
+  .gallery-lightbox-figure img,
+  .gallery-lightbox-content img {
+    max-width: calc(100vw - 32px);
+    max-height: calc(100vh - 130px);
+  }
+
+  .gallery-lightbox-close {
+    top: 12px;
+    right: 12px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .gallery-lightbox-nav {
+    width: 34px;
+    height: 44px;
+    font-size: 23px;
+  }
+
+  .gallery-lightbox-nav.previous,
+  .gallery-lightbox-prev {
+    left: 4px;
+  }
+
+  .gallery-lightbox-nav.next,
+  .gallery-lightbox-next {
+    right: 4px;
+  }
+}

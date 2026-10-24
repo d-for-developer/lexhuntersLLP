@@ -15,10 +15,12 @@ const Navbar = () => {
     <>
       <header className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMenu}>
-            <span className="navbar-brand">
-              ⚖ LEXHUNTERS LLP
-            </span>
+          <Link to="/" className="navbar-brand">
+            <img
+              src="/images/lexhunters-logo.png"
+              alt="LexHunters LLP"
+              className="navbar-logo"
+            />
           </Link>
 
           <button
@@ -47,7 +49,9 @@ const Navbar = () => {
             <NavLink to="/achievements" onClick={closeMenu}>
               Achievements
             </NavLink>
-
+            <Link to="/gallery" onClick={() => setMenuOpen(false)}>
+              Gallery
+            </Link>
             <NavLink to="/contact" onClick={closeMenu}>
               Contact
             </NavLink>

@@ -17,9 +17,14 @@ import NotFound from './pages/NotFound.jsx';
 import PrivacyPolicy from './pages/Legal/PrivacyPolicy.jsx';
 import Disclaimer from './pages/Legal/Disclaimer.jsx';
 
+import DisclaimerModal from "./components/DisclaimerModal";
+
+import Gallery from "./pages/Gallery";
+
 function Layout({ children }) {
   return (
-    <>
+        <>
+      <DisclaimerModal />
       <Navbar />
       <main>{children}</main>
       <Footer />
@@ -42,6 +47,7 @@ export default function App() {
         <Route path="/contact" element={<Layout><Contact /></Layout>} />
         <Route path="/privacy-policy" element={<Layout><PrivacyPolicy /></Layout>} />
         <Route path="/disclaimer" element={<Layout><Disclaimer /></Layout>} />
+        <Route path="/gallery" element={<Layout><Gallery /></Layout>} />
         <Route path="*" element={<Layout><NotFound /></Layout>} />
       </Routes>
     </>

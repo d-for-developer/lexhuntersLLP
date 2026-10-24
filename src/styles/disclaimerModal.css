@@ -1,0 +1,141 @@
+
+.disclaimer-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(8, 8, 8, 0.88);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+.disclaimer-modal {
+  width: 100%;
+  max-width: 650px;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 42px 44px 30px;
+  text-align: center;
+  color: #eee9df;
+  background: #111110;
+  border: 1px solid #b99a58;
+  border-radius: 4px;
+  box-shadow: 0 24px 90px rgba(0, 0, 0, 0.55);
+}
+
+.disclaimer-emblem {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  margin-bottom: 16px;
+  color: #d4b36b;
+  border: 1px solid #8f7540;
+  border-radius: 50%;
+  font-size: 28px;
+}
+
+.disclaimer-eyebrow {
+  margin: 0 0 10px;
+  color: #d4b36b;
+  font-size: 11px;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.disclaimer-modal h2 {
+  margin: 0;
+  color: #f4e7c6;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(30px, 5vw, 42px);
+  font-weight: 600;
+}
+
+.disclaimer-divider {
+  width: 76px;
+  height: 1px;
+  margin: 19px auto 24px;
+  background: #b99a58;
+}
+
+.disclaimer-content {
+  color: #d2cec5;
+  font-size: 14px;
+  line-height: 1.85;
+  text-align: left;
+}
+
+.disclaimer-content p {
+  margin: 0 0 14px;
+}
+
+.disclaimer-question {
+  margin: 24px 0 18px;
+  color: #f1dfb4;
+  font-size: 14px;
+}
+
+.disclaimer-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.disclaimer-actions button {
+  min-height: 48px;
+  padding: 13px 20px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.disclaimer-accept {
+  color: #111;
+  background: #c7a65f;
+  border: 1px solid #c7a65f;
+}
+
+.disclaimer-accept:hover {
+  background: #e0c785;
+}
+
+.disclaimer-decline {
+  color: #e8e2d7;
+  background: transparent;
+  border: 1px solid #71664f;
+}
+
+.disclaimer-decline:hover {
+  background: #29251e;
+}
+
+.disclaimer-footer {
+  margin: 26px 0 0;
+  color: #9b927f;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+}
+
+@media (max-width: 600px) {
+  .disclaimer-modal {
+    padding: 30px 22px 24px;
+  }
+
+  .disclaimer-actions {
+    flex-direction: column;
+  }
+
+  .disclaimer-actions button {
+    width: 100%;
+  }
+
+  .disclaimer-content {
+    font-size: 13px;
+  }
+}
